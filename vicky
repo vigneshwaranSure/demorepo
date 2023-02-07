@@ -1,1 +1,1 @@
-
+select name, database_name from v$database;
