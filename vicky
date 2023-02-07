@@ -1,1 +1,2 @@
-select name, database_name from v$database;
+select name from v$database;
+select name,open_mode from v$database;
